@@ -7,5 +7,4 @@ spec:
   - name: nginx-mahi
     image: nginx
     ports:
-    - containerport: 8080
-  
+    - containerPort: 8080
