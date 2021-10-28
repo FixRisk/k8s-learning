@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: mysqlpod
+spec:
+  containers:
+  - name: mysqlContainer
+    image: mysql:5.7
+    secret:
+      MYSQL_ROOT_USERNAME: username
